@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "no-console": 0,
+        "quotes": [
+            2,
+            "single"
+        ],
+        "linebreak-style": [
+            "error", 
+            "windows"
+        ]
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "amd": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+    "extends": "eslint:recommended"
+}
